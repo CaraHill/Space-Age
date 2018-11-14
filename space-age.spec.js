@@ -53,7 +53,7 @@ describe('Space Age', () => {
     expect(age.onNeptune()).toEqual(1.58);
   });
 
-  xtest('reassigning seconds', () => {
+  test('reassigning seconds', () => {
     const age = new SpaceAge(1000000);
     age.seconds = 3210123456;
     expect(age.onEarth()).toEqual(101.72);
