@@ -20,6 +20,18 @@ function SpaceAge(secondsArg) {
   this.onJupiter = () => {
     return +(this.seconds / 374355659.12).toFixed(2);
   }
+
+  this.onSaturn = () => {
+    return +(this.seconds / 929292362.88).toFixed(2);
+  }
+
+  this.onUranus = () => {
+    return +(this.seconds / 2651370019.33).toFixed(2);
+  }
+
+  this.onNeptune = () => {
+    return +(this.seconds / 5200418560.03).toFixed(2);
+  }
 }
 
 export { SpaceAge }
