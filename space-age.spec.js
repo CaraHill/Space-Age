@@ -23,7 +23,7 @@ describe('Space Age', () => {
     expect(age.onVenus()).toEqual(9.78);
   });
 
-  xtest('age in mars years', () => {
+  test('age in mars years', () => {
     const age = new SpaceAge(2329871239);
     expect(age.onEarth()).toEqual(73.83);
     expect(age.onMars()).toEqual(39.25);

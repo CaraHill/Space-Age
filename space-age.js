@@ -12,6 +12,11 @@ function SpaceAge(secondsArg) {
   this.onVenus = () => {
     return +(this.seconds / 19414149.05).toFixed(2);
   }
+
+  this.onMars = () => {
+    return +(this.seconds / 59354032.69).toFixed(2);
+  }
 }
 
 export { SpaceAge }
+
